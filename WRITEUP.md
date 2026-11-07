@@ -69,7 +69,7 @@ We customize the model as follows.
 - **N-gram table.** We use the FP8 copy of the n-gram embedding table that RadixArk made and albucino assembled ([albucino/Qwen3.8-Flash-Next-W4A16-FP8PLE](https://huggingface.co/albucino/Qwen3.8-Flash-Next-W4A16-FP8PLE)), which halves occupied memory into 51 GB.
 - **Speculative Decoding** [7].
   - For drafting we use the model's own MTP head, whose routed experts are quantized by albucino to INT4 with group size 32. Besides the main model's LM head adding 1 token each step, the single-layer MTP head is applied 3 times per step to draft 3 tokens, so each step produces 1 to 4 tokens.
-  - Following FR-Spec [8], our patch restricts the drafter to a 16340-token vocabulary, which covers every token in 43M tokens of our agent trajectories.
+  - Trying following FR-Spec [8], our patch restricts the drafter to a 16340-token vocabulary, ~~which covers every token in 43M tokens of our agent trajectories.~~ Actually, we used a 16384-token capacity for FR-Spec, but only to get 16340 unique tokens from trajectories so this was a futile design; more, the trajectories are from Qwen3.8-27B single turn samples which I forgot to update to Flash-Next with the harness, so the optimization on this is wrongly directed to 27B single-turn frequencies though still with unexpectedly low effect. It did have a small acceleration since 248320-token vocabulary is truncated to 16340 for the MTP drafter; but it could be done better if we found that things went wrong.
   - Verification still uses the full vocabulary, so the output distribution is unchanged, and the main model can still produce tokens outside the drafter's vocabulary.
 
 ## Throughput optimization
@@ -161,6 +161,7 @@ My regrets are:
 - Kaggle's degrading file system/GPUs at the closing
 - In this final stage, after 3rd and above 75 is a luck-required fierce battleground. Luck is also a part of skill & skill issue.
 - I have bad luck that would perhaps transfer to my **overfitting problem (shakeup)**.
+- Not finding that actually MTP optimization is terribly neglected and done.
 
 # References
 
