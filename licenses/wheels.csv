@@ -1,0 +1,202 @@
+file,name,version,licence,class,source_url
+agent_detector-2.0.0-py3-none-any.whl,agent_detector,2.0.0,MIT,permissive OSI,https://pypi.org/project/agent-detector/2.0.0/
+aiohappyeyeballs-2.7.1-py3-none-any.whl,aiohappyeyeballs,2.7.1,PSF-2.0,permissive OSI,https://pypi.org/project/aiohappyeyeballs/2.7.1/
+aiohttp-3.14.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,aiohttp,3.14.3,Apache-2.0 AND MIT,permissive OSI,https://pypi.org/project/aiohttp/3.14.3/
+aiosignal-1.4.0-py3-none-any.whl,aiosignal,1.4.0,Apache 2.0,permissive OSI,https://pypi.org/project/aiosignal/1.4.0/
+annotated_doc-0.0.5-py3-none-any.whl,annotated_doc,0.0.5,MIT,permissive OSI,https://pypi.org/project/annotated-doc/0.0.5/
+annotated_types-0.8.0-py3-none-any.whl,annotated_types,0.8.0,MIT,permissive OSI,https://pypi.org/project/annotated-types/0.8.0/
+anthropic-1.7.0-py3-none-any.whl,anthropic,1.7.0,MIT,permissive OSI,https://pypi.org/project/anthropic/1.7.0/
+anyio-4.15.1-py3-none-any.whl,anyio,4.15.1,MIT,permissive OSI,https://pypi.org/project/anyio/4.15.1/
+apache_tvm_ffi-0.1.11-cp312-abi3-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl,apache_tvm_ffi,0.1.11,Apache 2.0,permissive OSI,https://pypi.org/project/apache-tvm-ffi/0.1.11/
+astor-0.8.1-py2.py3-none-any.whl,astor,0.8.1,BSD-3-Clause,permissive OSI,https://pypi.org/project/astor/0.8.1/
+attrs-26.1.0-py3-none-any.whl,attrs,26.1.0,MIT,permissive OSI,https://pypi.org/project/attrs/26.1.0/
+blake3-1.0.9-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,blake3,1.0.9,CC0-1.0 OR Apache-2.0,permissive OSI,https://pypi.org/project/blake3/1.0.9/
+cachetools-7.2.0-py3-none-any.whl,cachetools,7.2.0,MIT,permissive OSI,https://pypi.org/project/cachetools/7.2.0/
+cbor2-6.1.4-cp312-cp312-manylinux_2_28_x86_64.whl,cbor2,6.1.4,MIT,permissive OSI,https://pypi.org/project/cbor2/6.1.4/
+certifi-2026.7.22-py3-none-any.whl,certifi,2026.7.22,MPL-2.0,permissive OSI,https://pypi.org/project/certifi/2026.7.22/
+cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,cffi,2.1.1,MIT-0,permissive OSI,https://pypi.org/project/cffi/2.1.1/
+charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,charset_normalizer,3.5.1,MIT,permissive OSI,https://pypi.org/project/charset-normalizer/3.5.1/
+click-8.5.0-py3-none-any.whl,click,8.5.0,BSD-3-Clause,permissive OSI,https://pypi.org/project/click/8.5.0/
+cloudpickle-3.1.2-py3-none-any.whl,cloudpickle,3.1.2,BSD-3-Clause,permissive OSI,https://pypi.org/project/cloudpickle/3.1.2/
+compressed_tensors-0.17.0-py3-none-any.whl,compressed_tensors,0.17.0,Apache 2.0,permissive OSI,https://pypi.org/project/compressed-tensors/0.17.0/
+cryptography-50.0.1-cp311-abi3-manylinux_2_34_x86_64.whl,cryptography,50.0.1,Apache-2.0 OR BSD-3-Clause,permissive OSI,https://pypi.org/project/cryptography/50.0.1/
+cuda_bindings-13.4.2-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl,cuda_bindings,13.4.2,Apache-2.0,permissive OSI,https://pypi.org/project/cuda-bindings/13.4.2/
+cuda_core-1.2.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl,cuda_core,1.2.0,Apache-2.0,permissive OSI,https://pypi.org/project/cuda-core/1.2.0/
+cuda_pathfinder-1.8.2-py3-none-any.whl,cuda_pathfinder,1.8.2,Apache-2.0,permissive OSI,https://pypi.org/project/cuda-pathfinder/1.8.2/
+cuda_python-13.4.1-py3-none-any.whl,cuda_python,13.4.1,Apache-2.0,permissive OSI,https://pypi.org/project/cuda-python/13.4.1/
+cuda_tile-1.6.0-cp312-cp312-manylinux2014_x86_64.whl,cuda_tile,1.6.0,Apache-2.0,permissive OSI,https://pypi.org/project/cuda-tile/1.6.0/
+cuda_toolkit-13.0.3.0-py2.py3-none-any.whl,cuda_toolkit,13.0.3.0,"LicenseRef-NVIDIA-Proprietary (CUDA Toolkit EULA; meta-package with no files of its own, PyPI field empty)",proprietary/EULA,https://docs.nvidia.com/cuda/eula/index.html
+depyf-0.20.0-py3-none-any.whl,depyf,0.20.0,MIT,permissive OSI,https://pypi.org/project/depyf/0.20.0/
+detect_installer-0.2.1-py3-none-any.whl,detect_installer,0.2.1,0BSD,permissive OSI,https://pypi.org/project/detect-installer/0.2.1/
+dill-0.4.1-py3-none-any.whl,dill,0.4.1,BSD-3-Clause,permissive OSI,https://pypi.org/project/dill/0.4.1/
+dnspython-2.8.0-py3-none-any.whl,dnspython,2.8.0,ISC,permissive OSI,https://pypi.org/project/dnspython/2.8.0/
+docstring_parser-0.18.0-py3-none-any.whl,docstring_parser,0.18.0,MIT,permissive OSI,https://pypi.org/project/docstring-parser/0.18.0/
+einops-0.8.2-py3-none-any.whl,einops,0.8.2,MIT,permissive OSI,https://pypi.org/project/einops/0.8.2/
+email_validator-2.3.0-py3-none-any.whl,email_validator,2.3.0,Unlicense,permissive OSI,https://pypi.org/project/email-validator/2.3.0/
+fastapi-0.136.3-py3-none-any.whl,fastapi,0.136.3,MIT,permissive OSI,https://pypi.org/project/fastapi/0.136.3/
+fastapi_cli-0.0.32-py3-none-any.whl,fastapi_cli,0.0.32,MIT,permissive OSI,https://pypi.org/project/fastapi-cli/0.0.32/
+fastapi_cloud_cli-0.26.0-py3-none-any.whl,fastapi_cloud_cli,0.26.0,MIT,permissive OSI,https://pypi.org/project/fastapi-cloud-cli/0.26.0/
+fastar-0.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,fastar,0.12.0,MIT License (classifier),permissive OSI,https://pypi.org/project/fastar/0.12.0/
+fastsafetensors-0.4.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,fastsafetensors,0.4.0,Apache-2.0,permissive OSI,https://pypi.org/project/fastsafetensors/0.4.0/
+filelock-4.0.1-py3-none-any.whl,filelock,4.0.1,MIT,permissive OSI,https://pypi.org/project/filelock/4.0.1/
+flashinfer_python-0.6.18.post1-py3-none-any.whl,flashinfer_python,0.6.18.post1,Apache-2.0,permissive OSI,https://pypi.org/project/flashinfer-python/0.6.18.post1/
+frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl,frozenlist,1.8.0,Apache-2.0,permissive OSI,https://pypi.org/project/frozenlist/1.8.0/
+fsspec-2026.9.0-py3-none-any.whl,fsspec,2026.9.0,BSD-3-Clause,permissive OSI,https://pypi.org/project/fsspec/2026.9.0/
+googleapis_common_protos-1.75.3-py3-none-any.whl,googleapis_common_protos,1.75.3,Apache-2.0,permissive OSI,https://pypi.org/project/googleapis-common-protos/1.75.3/
+grpcio-1.84.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,grpcio,1.84.0,Apache-2.0,permissive OSI,https://pypi.org/project/grpcio/1.84.0/
+h11-0.16.0-py3-none-any.whl,h11,0.16.0,MIT,permissive OSI,https://pypi.org/project/h11/0.16.0/
+hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,hf_xet,1.6.0,Apache-2.0,permissive OSI,https://pypi.org/project/hf-xet/1.6.0/
+httpcore-1.0.9-py3-none-any.whl,httpcore,1.0.9,BSD-3-Clause,permissive OSI,https://pypi.org/project/httpcore/1.0.9/
+httpcore2-2.13.0-py3-none-any.whl,httpcore2,2.13.0,BSD-3-Clause,permissive OSI,https://pypi.org/project/httpcore2/2.13.0/
+httptools-0.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl,httptools,0.8.0,MIT,permissive OSI,https://pypi.org/project/httptools/0.8.0/
+httpx-0.28.1-py3-none-any.whl,httpx,0.28.1,BSD-3-Clause,permissive OSI,https://pypi.org/project/httpx/0.28.1/
+httpx2-2.13.0-py3-none-any.whl,httpx2,2.13.0,BSD-3-Clause,permissive OSI,https://pypi.org/project/httpx2/2.13.0/
+huggingface_hub-1.32.0-py3-none-any.whl,huggingface_hub,1.32.0,Apache-2.0,permissive OSI,https://pypi.org/project/huggingface-hub/1.32.0/
+humming_kernels-0.1.12-py3-none-manylinux_2_28_x86_64.whl,humming_kernels,0.1.12,Apache-2.0 (PyPI field empty; upstream repository vllm-project/humming),permissive OSI,https://github.com/vllm-project/humming/blob/main/LICENSE
+idna-3.20-py3-none-any.whl,idna,3.20,BSD-3-Clause,permissive OSI,https://pypi.org/project/idna/3.20/
+ijson-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,ijson,3.5.1,BSD-3-Clause AND ISC,permissive OSI,https://pypi.org/project/ijson/3.5.1/
+instanttensor-0.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,instanttensor,0.2.0,Apache-2.0 (full text in PyPI field),permissive OSI,https://pypi.org/project/instanttensor/0.2.0/
+interegular-0.3.3-py37-none-any.whl,interegular,0.3.3,MIT,permissive OSI,https://pypi.org/project/interegular/0.3.3/
+jinja2-3.1.6-py3-none-any.whl,jinja2,3.1.6,BSD License (classifier),permissive OSI,https://pypi.org/project/jinja2/3.1.6/
+jiter-0.17.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,jiter,0.17.0,MIT,permissive OSI,https://pypi.org/project/jiter/0.17.0/
+jmespath-1.1.0-py3-none-any.whl,jmespath,1.1.0,MIT,permissive OSI,https://pypi.org/project/jmespath/1.1.0/
+jsonschema-4.26.0-py3-none-any.whl,jsonschema,4.26.0,MIT,permissive OSI,https://pypi.org/project/jsonschema/4.26.0/
+jsonschema_specifications-2025.9.1-py3-none-any.whl,jsonschema_specifications,2025.9.1,MIT,permissive OSI,https://pypi.org/project/jsonschema-specifications/2025.9.1/
+lark-1.2.2-py3-none-any.whl,lark,1.2.2,MIT,permissive OSI,https://pypi.org/project/lark/1.2.2/
+llguidance-1.7.6-cp39-abi3-manylinux_2_31_x86_64.whl,llguidance,1.7.6,MIT,permissive OSI,https://pypi.org/project/llguidance/1.7.6/
+llvmlite-0.47.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,llvmlite,0.47.0,BSD-2-Clause AND Apache-2.0 WITH LLVM-exception,permissive OSI,https://pypi.org/project/llvmlite/0.47.0/
+lm_format_enforcer-0.11.3-py3-none-any.whl,lm_format_enforcer,0.11.3,MIT,permissive OSI,https://pypi.org/project/lm-format-enforcer/0.11.3/
+loguru-0.7.3-py3-none-any.whl,loguru,0.7.3,MIT License (classifier),permissive OSI,https://pypi.org/project/loguru/0.7.3/
+markdown_it_py-4.2.0-py3-none-any.whl,markdown_it_py,4.2.0,MIT License (classifier),permissive OSI,https://pypi.org/project/markdown-it-py/4.2.0/
+markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,markupsafe,3.0.3,BSD-3-Clause,permissive OSI,https://pypi.org/project/markupsafe/3.0.3/
+mcp-2.2.0-py3-none-any.whl,mcp,2.2.0,MIT,permissive OSI,https://pypi.org/project/mcp/2.2.0/
+mcp_types-2.2.0-py3-none-any.whl,mcp_types,2.2.0,MIT,permissive OSI,https://pypi.org/project/mcp-types/2.2.0/
+mdurl-0.1.2-py3-none-any.whl,mdurl,0.1.2,MIT License (classifier),permissive OSI,https://pypi.org/project/mdurl/0.1.2/
+mistral_common-1.11.7-py3-none-any.whl,mistral_common,1.11.7,Apache-2.0,permissive OSI,https://pypi.org/project/mistral-common/1.11.7/
+ml_dtypes-0.6.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,ml_dtypes,0.6.0,Apache-2.0,permissive OSI,https://pypi.org/project/ml-dtypes/0.6.0/
+model_hosting_container_standards-0.1.16-py3-none-any.whl,model_hosting_container_standards,0.1.16,Apache-2.0,permissive OSI,https://pypi.org/project/model-hosting-container-standards/0.1.16/
+mpmath-1.3.0-py3-none-any.whl,mpmath,1.3.0,BSD,permissive OSI,https://pypi.org/project/mpmath/1.3.0/
+msgspec-0.21.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,msgspec,0.21.1,BSD-3-Clause,permissive OSI,https://pypi.org/project/msgspec/0.21.1/
+multidict-6.9.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,multidict,6.9.1,Apache License 2.0,permissive OSI,https://pypi.org/project/multidict/6.9.1/
+nccl4py-0.5.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl,nccl4py,0.5.0,Apache-2.0,permissive OSI,https://pypi.org/project/nccl4py/0.5.0/
+networkx-3.7-py3-none-any.whl,networkx,3.7,BSD-3-Clause,permissive OSI,https://pypi.org/project/networkx/3.7/
+ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,ninja,1.13.2,Apache-2.0,permissive OSI,https://pypi.org/project/ninja/1.13.2/
+numba-0.65.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,numba,0.65.0,BSD,permissive OSI,https://pypi.org/project/numba/0.65.0/
+numpy-2.4.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,numpy,2.4.6,BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0,permissive OSI,https://pypi.org/project/numpy/2.4.6/
+nvidia_cublas-13.1.1.3-py3-none-manylinux_2_27_x86_64.whl,nvidia_cublas,13.1.1.3,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cublas/13.1.1.3/
+nvidia_cuda_cccl-13.0.85-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_cuda_cccl,13.0.85,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cuda-cccl/13.0.85/
+nvidia_cuda_crt-13.0.88-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_cuda_crt,13.0.88,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cuda-crt/13.0.88/
+nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl,nvidia_cuda_cupti,13.0.85,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cuda-cupti/13.0.85/
+nvidia_cuda_nvcc-13.0.88-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_cuda_nvcc,13.0.88,LicenseRef-NVIDIA-Proprietary (CUDA Toolkit EULA); PyPI field empty; nvcc/ptxas are not in EULA Attachment A,proprietary/EULA,https://docs.nvidia.com/cuda/eula/index.html
+nvidia_cuda_nvdisasm-13.4.92-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_cuda_nvdisasm,13.4.92,LicenseRef-NVIDIA-Proprietary (CUDA Toolkit EULA); nvdisasm is not in EULA Attachment A,proprietary/EULA,https://docs.nvidia.com/cuda/eula/index.html
+nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl,nvidia_cuda_nvrtc,13.0.88,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cuda-nvrtc/13.0.88/
+nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_cuda_runtime,13.0.96,LicenseRef-NVIDIA-Proprietary (CUDA Toolkit EULA); PyPI field empty,proprietary/EULA,https://docs.nvidia.com/cuda/eula/index.html
+nvidia_cudnn_cu13-9.20.0.48-py3-none-manylinux_2_27_x86_64.whl,nvidia_cudnn_cu13,9.20.0.48,LicenseRef-NVIDIA-Proprietary (cuDNN Software License Agreement); PyPI field empty,proprietary/EULA,https://docs.nvidia.com/deeplearning/cudnn/latest/reference/eula.html
+nvidia_cudnn_frontend-1.29.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,nvidia_cudnn_frontend,1.29.0,Apache-2.0 AND MIT,permissive OSI,https://pypi.org/project/nvidia-cudnn-frontend/1.29.0/
+nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_cufft,12.0.0.61,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cufft/12.0.0.61/
+nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_cufile,1.15.1.6,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cufile/1.15.1.6/
+nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl,nvidia_curand,10.4.0.35,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-curand/10.4.0.35/
+nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl,nvidia_cusolver,12.0.4.66,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cusolver/12.0.4.66/
+nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_cusparse,12.6.3.3,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-cusparse/12.6.3.3/
+nvidia_cusparselt_cu13-0.8.1-py3-none-manylinux2014_x86_64.whl,nvidia_cusparselt_cu13,0.8.1,LicenseRef-NVIDIA-Proprietary (cuSPARSELt Software License Agreement),proprietary/EULA,https://docs.nvidia.com/cuda/cusparselt/license.html
+nvidia_cutlass_dsl-4.7.1-py3-none-any.whl,nvidia_cutlass_dsl,4.7.1,Other/Proprietary License (classifier),proprietary/EULA,https://pypi.org/project/nvidia-cutlass-dsl/4.7.1/
+nvidia_cutlass_dsl_libs_base-4.7.1-cp312-cp312-manylinux_2_28_x86_64.whl,nvidia_cutlass_dsl_libs_base,4.7.1,Other/Proprietary License (classifier),proprietary/EULA,https://pypi.org/project/nvidia-cutlass-dsl-libs-base/4.7.1/
+nvidia_cutlass_dsl_libs_core-4.7.1-py3-none-any.whl,nvidia_cutlass_dsl_libs_core,4.7.1,Other/Proprietary License (classifier),proprietary/EULA,https://pypi.org/project/nvidia-cutlass-dsl-libs-core/4.7.1/
+nvidia_cutlass_dsl_libs_cu12-4.7.1-cp312-cp312-manylinux_2_28_x86_64.whl,nvidia_cutlass_dsl_libs_cu12,4.7.1,Other/Proprietary License (classifier),proprietary/EULA,https://pypi.org/project/nvidia-cutlass-dsl-libs-cu12/4.7.1/
+nvidia_cutlass_dsl_libs_cu13-4.7.1-cp312-cp312-manylinux_2_28_x86_64.whl,nvidia_cutlass_dsl_libs_cu13,4.7.1,Other/Proprietary License (classifier),proprietary/EULA,https://pypi.org/project/nvidia-cutlass-dsl-libs-cu13/4.7.1/
+nvidia_ml_py-13.610.43-py3-none-any.whl,nvidia_ml_py,13.610.43,BSD,permissive OSI,https://pypi.org/project/nvidia-ml-py/13.610.43/
+nvidia_nccl_cu13-2.29.7-py3-none-manylinux_2_18_x86_64.whl,nvidia_nccl_cu13,2.29.7,Apache-2.0 AND BSD-3-Clause (NCCL repository at tag v2.29.7-1); PyPI field empty,permissive OSI,https://github.com/NVIDIA/nccl/blob/v2.29.7-1/LICENSE.txt
+nvidia_nvjitlink-13.4.92-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl,nvidia_nvjitlink,13.4.92,LicenseRef-NVIDIA-Proprietary,proprietary/EULA,https://pypi.org/project/nvidia-nvjitlink/13.4.92/
+nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,nvidia_nvshmem_cu13,3.4.5,LicenseRef-NVIDIA-SDK-License (NVIDIA SDK License Agreement + NVSHMEM supplement at tag v3.4.5-0; later releases are Apache-2.0); PyPI field empty,proprietary/EULA,https://github.com/NVIDIA/nvshmem/blob/v3.4.5-0/License.txt
+nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl,nvidia_nvtx,13.0.85,Apache-2.0 WITH LLVM-exception (PyPI license 'Apache 2.0' but classifier Other/Proprietary; NVTX upstream),permissive OSI,https://github.com/NVIDIA/NVTX/blob/dev/LICENSE.txt
+nvidia_nvvm-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl,nvidia_nvvm,13.0.88,LicenseRef-NVIDIA-Proprietary (CUDA Toolkit EULA); PyPI field empty,proprietary/EULA,https://docs.nvidia.com/cuda/eula/index.html
+nvtx-0.2.15-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,nvtx,0.2.15,Apache-2.0 WITH LLVM-exception (PyPI field empty; project License URL),permissive OSI,https://nvidia.github.io/NVTX/LICENSE.txt
+openai-3.17.0-py3-none-any.whl,openai,3.17.0,Apache-2.0,permissive OSI,https://pypi.org/project/openai/3.17.0/
+openai_harmony-0.0.8-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,openai_harmony,0.0.8,Apache-2.0 (PyPI field empty; upstream repository),permissive OSI,https://github.com/openai/harmony/blob/main/LICENSE
+opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl,opencv_python_headless,5.0.0.93,Apache-2.0 (OpenCV; wrapper MIT; bundles FFmpeg LGPL-2.1),permissive OSI,https://pypi.org/project/opencv-python-headless/5.0.0.93/
+opentelemetry_api-1.44.0-py3-none-any.whl,opentelemetry_api,1.44.0,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-api/1.44.0/
+opentelemetry_exporter_otlp-1.44.0-py3-none-any.whl,opentelemetry_exporter_otlp,1.44.0,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-exporter-otlp/1.44.0/
+opentelemetry_exporter_otlp_proto_common-1.44.0-py3-none-any.whl,opentelemetry_exporter_otlp_proto_common,1.44.0,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-exporter-otlp-proto-common/1.44.0/
+opentelemetry_exporter_otlp_proto_grpc-1.44.0-py3-none-any.whl,opentelemetry_exporter_otlp_proto_grpc,1.44.0,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-exporter-otlp-proto-grpc/1.44.0/
+opentelemetry_exporter_otlp_proto_http-1.44.0-py3-none-any.whl,opentelemetry_exporter_otlp_proto_http,1.44.0,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-exporter-otlp-proto-http/1.44.0/
+opentelemetry_proto-1.44.0-py3-none-any.whl,opentelemetry_proto,1.44.0,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-proto/1.44.0/
+opentelemetry_sdk-1.44.0-py3-none-any.whl,opentelemetry_sdk,1.44.0,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-sdk/1.44.0/
+opentelemetry_semantic_conventions-0.65b0-py3-none-any.whl,opentelemetry_semantic_conventions,0.65b0,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-semantic-conventions/0.65b0/
+opentelemetry_semantic_conventions_ai-0.5.1-py3-none-any.whl,opentelemetry_semantic_conventions_ai,0.5.1,Apache-2.0,permissive OSI,https://pypi.org/project/opentelemetry-semantic-conventions-ai/0.5.1/
+outlines_core-0.2.14-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,outlines_core,0.2.14,Apache-2.0,permissive OSI,https://pypi.org/project/outlines-core/0.2.14/
+packaging-26.3-py3-none-any.whl,packaging,26.3,Apache-2.0 OR BSD-2-Clause,permissive OSI,https://pypi.org/project/packaging/26.3/
+partial_json_parser-0.2.1.1.post7-py3-none-any.whl,partial_json_parser,0.2.1.1.post7,MIT,permissive OSI,https://pypi.org/project/partial-json-parser/0.2.1.1.post7/
+pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,pillow,12.3.0,MIT-CMU,permissive OSI,https://pypi.org/project/pillow/12.3.0/
+prometheus_client-0.26.0-py3-none-any.whl,prometheus_client,0.26.0,Apache-2.0 AND BSD-2-Clause,permissive OSI,https://pypi.org/project/prometheus-client/0.26.0/
+prometheus_fastapi_instrumentator-8.1.0-py3-none-any.whl,prometheus_fastapi_instrumentator,8.1.0,ISC,permissive OSI,https://pypi.org/project/prometheus-fastapi-instrumentator/8.1.0/
+propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,propcache,0.5.4,Apache-2.0,permissive OSI,https://pypi.org/project/propcache/0.5.4/
+protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl,protobuf,7.36.2,3-Clause BSD License,permissive OSI,https://pypi.org/project/protobuf/7.36.2/
+psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl,psutil,7.2.2,BSD-3-Clause,permissive OSI,https://pypi.org/project/psutil/7.2.2/
+py_cpuinfo-9.0.0-py3-none-any.whl,py_cpuinfo,9.0.0,MIT,permissive OSI,https://pypi.org/project/py-cpuinfo/9.0.0/
+pybase64-1.5.0-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl,pybase64,1.5.0,BSD-2-Clause,permissive OSI,https://pypi.org/project/pybase64/1.5.0/
+pycountry-26.2.16-py3-none-any.whl,pycountry,26.2.16,LGPL-2.1-only,weak copyleft,https://pypi.org/project/pycountry/26.2.16/
+pycparser-3.0-py3-none-any.whl,pycparser,3.0,BSD-3-Clause,permissive OSI,https://pypi.org/project/pycparser/3.0/
+pydantic-2.13.5-py3-none-any.whl,pydantic,2.13.5,MIT,permissive OSI,https://pypi.org/project/pydantic/2.13.5/
+pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,pydantic_core,2.46.5,MIT,permissive OSI,https://pypi.org/project/pydantic-core/2.46.5/
+pydantic_extra_types-2.11.1-py3-none-any.whl,pydantic_extra_types,2.11.1,MIT,permissive OSI,https://pypi.org/project/pydantic-extra-types/2.11.1/
+pydantic_settings-2.15.0-py3-none-any.whl,pydantic_settings,2.15.0,MIT,permissive OSI,https://pypi.org/project/pydantic-settings/2.15.0/
+pygments-2.21.0-py3-none-any.whl,pygments,2.21.0,BSD-2-Clause,permissive OSI,https://pypi.org/project/pygments/2.21.0/
+pyjwt-2.14.0-py3-none-any.whl,pyjwt,2.14.0,MIT,permissive OSI,https://pypi.org/project/pyjwt/2.14.0/
+pynvvideocodec-2.0.4-cp312-cp312-manylinux_2_28_x86_64.whl,pynvvideocodec,2.0.4,"MIT (PyPI; bundles FFmpeg 8.1.1, licence of that build not stated)",permissive OSI,https://pypi.org/project/pynvvideocodec/2.0.4/
+python_dotenv-1.2.3-py3-none-any.whl,python_dotenv,1.2.3,BSD-3-Clause,permissive OSI,https://pypi.org/project/python-dotenv/1.2.3/
+python_json_logger-4.2.0-py3-none-any.whl,python_json_logger,4.2.0,BSD-2-Clause,permissive OSI,https://pypi.org/project/python-json-logger/4.2.0/
+python_multipart-0.0.32-py3-none-any.whl,python_multipart,0.0.32,Apache-2.0,permissive OSI,https://pypi.org/project/python-multipart/0.0.32/
+pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,pyyaml,6.0.3,MIT,permissive OSI,https://pypi.org/project/pyyaml/6.0.3/
+pyzmq-27.2.0-cp312-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl,pyzmq,27.2.0,BSD-3-Clause,permissive OSI,https://pypi.org/project/pyzmq/27.2.0/
+quack_kernels-0.6.5-py3-none-any.whl,quack_kernels,0.6.5,Apache-2.0 (PyPI field empty; upstream repository),permissive OSI,https://github.com/Dao-AILab/quack/blob/main/LICENSE
+referencing-0.37.0-py3-none-any.whl,referencing,0.37.0,MIT,permissive OSI,https://pypi.org/project/referencing/0.37.0/
+regex-2026.9.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,regex,2026.9.10,Apache-2.0 AND CNRI-Python,permissive OSI,https://pypi.org/project/regex/2026.9.10/
+requests-2.34.2-py3-none-any.whl,requests,2.34.2,Apache-2.0,permissive OSI,https://pypi.org/project/requests/2.34.2/
+rich-15.0.0-py3-none-any.whl,rich,15.0.0,MIT,permissive OSI,https://pypi.org/project/rich/15.0.0/
+rich_toolkit-0.20.5-py3-none-any.whl,rich_toolkit,0.20.5,MIT,permissive OSI,https://pypi.org/project/rich-toolkit/0.20.5/
+rignore-0.8.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,rignore,0.8.1,MIT,permissive OSI,https://pypi.org/project/rignore/0.8.1/
+rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,rpds_py,2026.6.3,MIT,permissive OSI,https://pypi.org/project/rpds-py/2026.6.3/
+safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,safetensors,0.8.0,Apache Software License (classifier),permissive OSI,https://pypi.org/project/safetensors/0.8.0/
+scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,scipy,1.18.1,BSD-3-Clause (bundles OpenBLAS BSD-3-Clause and libgfortran/libgcc GPL-3.0-or-later WITH GCC-exception-3.1),permissive OSI,https://pypi.org/project/scipy/1.18.1/
+sentencepiece-0.2.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,sentencepiece,0.2.2,Apache-2.0,permissive OSI,https://pypi.org/project/sentencepiece/0.2.2/
+sentry_sdk-2.69.2-py3-none-any.whl,sentry_sdk,2.69.2,MIT,permissive OSI,https://pypi.org/project/sentry-sdk/2.69.2/
+setproctitle-1.3.7-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl,setproctitle,1.3.7,BSD-3-Clause,permissive OSI,https://pypi.org/project/setproctitle/1.3.7/
+setuptools-80.10.2-py3-none-any.whl,setuptools,80.10.2,MIT,permissive OSI,https://pypi.org/project/setuptools/80.10.2/
+shellingham-1.5.4-py2.py3-none-any.whl,shellingham,1.5.4,ISC License,permissive OSI,https://pypi.org/project/shellingham/1.5.4/
+six-1.17.0-py2.py3-none-any.whl,six,1.17.0,MIT,permissive OSI,https://pypi.org/project/six/1.17.0/
+sniffio-1.3.1-py3-none-any.whl,sniffio,1.3.1,MIT OR Apache-2.0,permissive OSI,https://pypi.org/project/sniffio/1.3.1/
+sse_starlette-3.4.11-py3-none-any.whl,sse_starlette,3.4.11,BSD-3-Clause,permissive OSI,https://pypi.org/project/sse-starlette/3.4.11/
+starlette-1.6.0-py3-none-any.whl,starlette,1.6.0,BSD-3-Clause,permissive OSI,https://pypi.org/project/starlette/1.6.0/
+supervisor-4.3.0-py2.py3-none-any.whl,supervisor,4.3.0,BSD-derived (Repoze Public License),permissive OSI,https://github.com/Supervisor/supervisor/blob/main/LICENSES.txt
+sympy-1.14.0-py3-none-any.whl,sympy,1.14.0,BSD,permissive OSI,https://pypi.org/project/sympy/1.14.0/
+tabulate-0.10.0-py3-none-any.whl,tabulate,0.10.0,MIT,permissive OSI,https://pypi.org/project/tabulate/0.10.0/
+tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl,tiktoken,0.14.0,MIT (full text in PyPI field),permissive OSI,https://pypi.org/project/tiktoken/0.14.0/
+tilelang-0.1.12-cp38-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,tilelang,0.1.12,MIT,permissive OSI,https://pypi.org/project/tilelang/0.1.12/
+tokenizers-0.23.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,tokenizers,0.23.2,Apache Software License (classifier),permissive OSI,https://pypi.org/project/tokenizers/0.23.2/
+tokenspeed_mla-0.1.8-py3-none-manylinux_2_28_x86_64.whl,tokenspeed_mla,0.1.8,MIT (full text in PyPI field),permissive OSI,https://pypi.org/project/tokenspeed-mla/0.1.8/
+tokenspeed_triton-3.8.10.post20260920-cp312-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,tokenspeed_triton,3.8.10.post20260920,"MIT (PyPI; vendor fork of Triton, upstream lightseekorg/triton is MIT)",permissive OSI,https://github.com/lightseekorg/triton/blob/main/LICENSE
+torch-2.13.0-cp312-cp312-manylinux_2_28_x86_64.whl,torch,2.13.0,Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT,permissive OSI,https://pypi.org/project/torch/2.13.0/
+torch_c_dlpack_ext-0.1.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl,torch_c_dlpack_ext,0.1.5,Apache-2.0 (full text in PyPI field),permissive OSI,https://pypi.org/project/torch-c-dlpack-ext/0.1.5/
+torchaudio-2.11.0-cp312-cp312-manylinux_2_28_x86_64.whl,torchaudio,2.11.0,BSD License (classifier),permissive OSI,https://pypi.org/project/torchaudio/2.11.0/
+torchcodec-0.16.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,torchcodec,0.16.0,BSD-3-Clause (PyPI field empty; README and upstream repository),permissive OSI,https://github.com/meta-pytorch/torchcodec/blob/main/LICENSE
+torchvision-0.28.0-cp312-cp312-manylinux_2_28_x86_64.whl,torchvision,0.28.0,BSD,permissive OSI,https://pypi.org/project/torchvision/0.28.0/
+tqdm-4.70.1-py3-none-any.whl,tqdm,4.70.1,MPL-2.0 AND MIT,permissive OSI,https://pypi.org/project/tqdm/4.70.1/
+transformers-5.18.0-py3-none-any.whl,transformers,5.18.0,Apache 2.0 License,permissive OSI,https://pypi.org/project/transformers/5.18.0/
+triton-3.7.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,triton,3.7.1,MIT License (classifier),permissive OSI,https://pypi.org/project/triton/3.7.1/
+truststore-0.10.4-py3-none-any.whl,truststore,0.10.4,MIT,permissive OSI,https://pypi.org/project/truststore/0.10.4/
+typer-0.27.2-py3-none-any.whl,typer,0.27.2,MIT,permissive OSI,https://pypi.org/project/typer/0.27.2/
+typing_extensions-4.16.0-py3-none-any.whl,typing_extensions,4.16.0,PSF-2.0,permissive OSI,https://pypi.org/project/typing-extensions/4.16.0/
+typing_inspection-0.4.4-py3-none-any.whl,typing_inspection,0.4.4,MIT,permissive OSI,https://pypi.org/project/typing-inspection/0.4.4/
+urllib3-2.8.0-py3-none-any.whl,urllib3,2.8.0,MIT,permissive OSI,https://pypi.org/project/urllib3/2.8.0/
+uv-0.13.3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,uv,0.13.3,MIT OR Apache-2.0,permissive OSI,https://pypi.org/project/uv/0.13.3/
+uvicorn-0.53.0-py3-none-any.whl,uvicorn,0.53.0,BSD-3-Clause,permissive OSI,https://pypi.org/project/uvicorn/0.53.0/
+uvloop-0.22.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,uvloop,0.22.1,MIT License,permissive OSI,https://pypi.org/project/uvloop/0.22.1/
+vllm-0.30.0merlin252.sm89-cp38-abi3-manylinux_2_34_x86_64.whl,vllm,0.30.0+merlin252.sm89,"Apache-2.0 (upstream vLLM 0.30.0; local build of halt95's Merlin v2.5.2 fork, LICENSE-merlin.txt is the Apache-2.0 text)",permissive OSI,https://github.com/vllm-project/vllm/blob/v0.30.0/LICENSE
+watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,watchfiles,1.3.0,MIT,permissive OSI,https://pypi.org/project/watchfiles/1.3.0/
+websockets-17.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl,websockets,17.1,BSD-3-Clause,permissive OSI,https://pypi.org/project/websockets/17.1/
+wheel-0.48.0-py3-none-any.whl,wheel,0.48.0,MIT,permissive OSI,https://pypi.org/project/wheel/0.48.0/
+xgrammar-0.2.7-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,xgrammar,0.2.7,Apache 2.0,permissive OSI,https://pypi.org/project/xgrammar/0.2.7/
+yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,yarl,1.25.1,Apache-2.0,permissive OSI,https://pypi.org/project/yarl/1.25.1/
+z3_solver-4.15.4.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,z3_solver,4.15.4.0,MIT License,permissive OSI,https://pypi.org/project/z3-solver/4.15.4.0/
+flashinfer-aot-sm89-norm.so,flashinfer norm module (AOT),0.6.18.post1,Apache-2.0 (unmodified FlashInfer source compiled for sm_89; links libcudart dynamically),permissive OSI,https://github.com/flashinfer-ai/flashinfer/blob/main/LICENSE
+flashinfer-aot-sm89-sampling.so,flashinfer sampling module (AOT),0.6.18.post1,Apache-2.0 (unmodified FlashInfer source compiled for sm_89; links libcudart dynamically),permissive OSI,https://github.com/flashinfer-ai/flashinfer/blob/main/LICENSE

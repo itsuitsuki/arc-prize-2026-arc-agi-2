@@ -1,0 +1,12 @@
+A previous attempt at this task ended with the program and the answer below. {conclusion} The answer may be wrong. Work out the rule again from the training pairs, starting from a different hypothesis rather than patching this program. Your final answer must differ from the previous answer; if after checking you still believe it is right, give your second most likely output instead.
+
+Previous program:
+```python
+{code}
+```
+
+Its check on the training pairs:
+{report}
+
+Previous answer:
+{answer}

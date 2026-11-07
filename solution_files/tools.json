@@ -1,0 +1,68 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "arc_python_executor",
+      "description": "Run Python code in this task's session and return what it prints (up to 4,000 characters) and any error. train (a list of {\"input\": grid, \"output\": grid}) and test (a list of {\"input\": grid}) are predefined afresh for every call, each grid a list of rows of integers 0-9. Variables, functions and imports from earlier calls are kept (from a call that raised, those defined before the failing statement). Every function the code defines named transform, solve, transform<N> or solve<N> is run on every training input and checked against the expected output; when it passes them all, its output for each test input is shown too (with target \"test\", in any case). checks maps each function checked in an earlier call to {\"train_passed\", \"train_total\", \"test_outputs\"}. objects(grid, diagonal=False, background=None) is predefined and returns the connected components of one color in a grid (a list of rows or a numpy array; 4-connected, or 8-connected with diagonal=True; background=c skips color c) as a list of {\"color\", \"cells\" (a list of (row, col)), \"bbox\" (top, left, bottom, right; inclusive), \"size\"} in row-major order. diff(a, b) is predefined and returns \"same\", \"shape differs: HxW vs HxW\", or how many cells of the two grids differ and the first 50 of them as (row, col, a, b). Both are given afresh to every call, like train and test.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "Python source: any statements; print what you want to see."
+          },
+          "target": {
+            "type": "string",
+            "enum": [
+              "train",
+              "test"
+            ],
+            "description": "train (default): verify on the training pairs; test: also return the output grid for each test input."
+          }
+        },
+        "required": [
+          "code"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "arc_submit_answer",
+      "description": "Submit the final answer, one output grid per test input, and end the task. Name what computed each grid instead of writing it: {\"function\": name} runs that session function on the test input, {\"variable\": name} takes the grid that session variable holds (a list of rows or a numpy array), and {\"grid\": [[...]]} is a grid written by hand, only for an output nothing computed. A function that fails a training pair is submitted only when the identical call is repeated.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "outputs": {
+            "type": "array",
+            "description": "One entry per test input, in order, e.g. [{\"function\": \"transform\"}] or [{\"variable\": \"out1\"}, {\"grid\": [[0, 1], [1, 0]]}]; a single {\"function\": name} object instead of the list applies that function to every test input.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "function": {
+                  "type": "string"
+                },
+                "variable": {
+                  "type": "string"
+                },
+                "grid": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "outputs"
+        ]
+      }
+    }
+  }
+]
