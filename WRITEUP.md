@@ -91,7 +91,7 @@ We also change the engine as follows.
 - **Chunked verification.** To verify draft tokens, vLLM copies the logits of a chunk of requests to fp32, and by default a chunk may hold up to 1 GiB of logits causing congestion. We lower that limit to 32 MiB to avoid running out of GPU memory at 64 requests on a nearly full L4.
 - **Hierarchical concurrency fallback.** If the engine fails to start or runs out of GPU memory, we restart it at the next lower level of concurrency, first 48, then 36, then 20 requests, each with a 131072-token context instead of 196608 in original.
 
-Most of the gain came from running more requests at once. On Kaggle, generation at full load rose from 345 tokens/s with 12 concurrent requests in our first Flash-Next run to 797 tokens/s with 64 in the final configuration. The time of a decoding step grows slowly with the number of requests, so GPU memory set the limit, and most changes above made room for more requests.
+Most of the gain came from running more requests at once. On Kaggle, generation at full load rose from 345 tokens/s with 12 concurrent requests, in our first speed test of Flash-Next there, to 797 tokens/s with 64 in the commit run described below. The time of a decoding step grows slowly with the number of requests, so GPU memory set the limit, and most changes above made room for more requests.
 
 As a result of throughput optimization, in a Kaggle commit run with concurrency 64 and ctx length 131072 as an earlier config, on the 120 public evaluation tasks (172 test outputs), the system took 240 trajectories and finished in 5.37 hours. Generation in this run had a one-minute peak of 1081 tokens/s and an average of 677 tokens/s.
 
