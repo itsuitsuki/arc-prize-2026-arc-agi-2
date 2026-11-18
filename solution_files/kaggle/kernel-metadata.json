@@ -1,0 +1,29 @@
+{
+  "id": "nisshokuitsuki/arc-qwen-transductive",
+  "title": "ARC Qwen Transductive",
+  "code_file": "arc-qwen-transductive.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "nisshokuitsuki/qwen-merlin-h95-wheels",
+    "nisshokuitsuki/qwen-scipy-wheel",
+    "nisshokuitsuki/uv-wheel"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "arc-prize-2026-arc-agi-2"
+  ],
+  "model_sources": [
+    "dfranzen/albucino-qwen3-8-flash-next-drafter/Transformers/default/1",
+    "nisshokuitsuki/qwen38-flash-next-azfocus-override/Transformers/default/1",
+    "dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/Transformers/default/1",
+    "nisshokuitsuki/qwen38-flash-next-fp8ple-table/Transformers/default/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaL4"
+}

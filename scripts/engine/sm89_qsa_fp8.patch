@@ -1,0 +1,22 @@
+diff --git a/vllm/models/qwen4_exp/nvidia/qsa.py b/vllm/models/qwen4_exp/nvidia/qsa.py
+index a10f0a7..a44197f 100644
+--- a/vllm/models/qwen4_exp/nvidia/qsa.py
++++ b/vllm/models/qwen4_exp/nvidia/qsa.py
+@@ -309,13 +309,15 @@ def _validated_qsa_fp8_dtype(cache_dtype: str) -> torch.dtype | None:
+             "ROCm and other platforms have not been validated"
+         )
+ 
++    # SM89 (L4, RTX 40xx / 6000 Ada) runs the same byte-view reader: its software
++    # E4M3 decode is bit-identical to torch's cast on all 254 finite codes there.
+     capability = current_platform.get_device_capability()
+-    if capability is None or capability.to_int() != 86:
++    if capability is None or capability.to_int() not in (86, 89):
+         cap_str = (
+             capability.as_version_str() if capability is not None else "unknown"
+         )
+         raise ValueError(
+-            "Qwen4Exp QSA E4M3 KV cache is validated only on SM86, but "
++            "Qwen4Exp QSA E4M3 KV cache is validated only on SM86 and SM89, but "
+             f"{current_platform.get_device_name()} has compute capability "
+             f"{cap_str}. Re-run with --kv-cache-dtype bfloat16."
+         )

@@ -9,13 +9,15 @@ This repository holds our solution to the Kaggle competition [ARC Prize 2026 ARC
 | Path | Contents |
 | --- | --- |
 | `submission.ipynb` | The competition notebook. |
-| `solution_files/` | The files of the Kaggle dataset [arc-solution-files](https://www.kaggle.com/datasets/nisshokuitsuki/arc-solution-files), which the notebook reads. |
+| `solution_files/` | The files of the Kaggle dataset [arc-solution-files](https://www.kaggle.com/datasets/nisshokuitsuki/arc-solution-files), which the notebook reads. `solution_files/kaggle/` is not part of the dataset. |
 | `solution_files/engine_patches/` | 13 Python modules that change the inference engine. The notebook adds them to the installed engine in the order of its `ENGINE_PATCHES` list. |
 | `solution_files/sandbox.py` | Checks the model's Python programs and runs them in a separate process with limits on CPU time, files and output. |
 | `solution_files/prompts/` | The system prompt, the task prompts, and the text added to the task prompt in later attempts. |
 | `solution_files/tools.json` | The two tools the model can call: the Python executor and the answer submission. |
 | `solution_files/reap448_keep.json` | The 448 of 512 routed experts that the notebook keeps in each layer. |
 | `solution_files/qwen38_arc_16384.json` | The 16340 tokens that the drafter can propose. |
+| `solution_files/kaggle/` | Versions 43 and 47 of our competition notebook nisshokuitsuki/arc-qwen-transductive, which made our 2 selected submissions, and the Kaggle settings of version 47. They keep their source files as strings in 1 cell, so `submission.ipynb` is the readable version of the same system. |
+| `scripts/` | The scripts that made `reap448_keep.json`, `qwen38_arc_16384.json` and the AZ-Focus override, the routing statistics from which `reap448_keep.json` was computed, and the scripts that built the engine wheels. |
 | `WRITEUP.md`, `writeup.pdf` | The writeup. |
 | `THIRD_PARTY_NOTICES.md`, `licenses/` | The licences of the model weights, the engine, the Python wheels and the code we adapted. |
 | `LICENSE` | CC BY 4.0. |
@@ -42,4 +44,4 @@ To answer tasks in a saved version, set `SCORING = True` in the first code cell 
 
 ## Licence
 
-The notebook and `solution_files/` are under [CC BY 4.0](LICENSE), except the parts adapted from others. Those parts, the model weights, the engine and the wheels keep their own licences, which [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) lists.
+The notebook, `solution_files/` and `scripts/` are under [CC BY 4.0](LICENSE), except the parts adapted from others. Those parts, the model weights, the engine and the wheels keep their own licences, which [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) lists. `scripts/engine/sm89_qsa_fp8.patch` changes a file of the Merlin engine, so it keeps the engine's Apache License 2.0.

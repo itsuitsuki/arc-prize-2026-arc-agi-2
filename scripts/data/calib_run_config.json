@@ -1,0 +1,37 @@
+{
+ "python": "SGLANG_ENV/bin/python",
+ "model": "UNPRUNED_CHECKPOINT",
+ "tokenizer": "UNPRUNED_CHECKPOINT",
+ "output": "STATS_RUN",
+ "challenges": "calib64_challenges.json",
+ "shard": [
+  0,
+  1
+ ],
+ "seed": 20260926,
+ "thinking_token_budget": 4096,
+ "max_tokens": 5120,
+ "max_model_len": 196608,
+ "concurrency": 32,
+ "port": 31000,
+ "tp": 2,
+ "server_args": [
+  "--kv-cache-dtype",
+  "fp8_e4m3",
+  "--mem-fraction-static",
+  "0.88",
+  "--ple-offload-embedding",
+  "--disable-radix-cache",
+  "--random-seed",
+  "20260926",
+  "--speculative-algorithm",
+  "NEXTN",
+  "--speculative-num-steps",
+  "3",
+  "--speculative-eagle-topk",
+  "1",
+  "--speculative-num-draft-tokens",
+  "4",
+  "--disable-cuda-graph"
+ ]
+}
